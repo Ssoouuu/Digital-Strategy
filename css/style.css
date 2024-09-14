@@ -1173,7 +1173,7 @@ a {
         padding-right: 20px;
     }
 
-    .uil-location-point {
+    .footer__location .uil-location-point {
         display: none;
     }
 
@@ -1215,7 +1215,7 @@ a {
         padding-right: 0px;
     }
 
-    .uil-location-point {
+    .footer__location .uil-location-point {
         display: none;
     }
 
