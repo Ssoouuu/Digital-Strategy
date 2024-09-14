@@ -214,6 +214,7 @@ a {
     width: 30px;
     height: 18px;
     right: 50px;
+    overflow: hidden;
 }
 
 .burger span {
@@ -1094,7 +1095,7 @@ a {
     } 
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 500px) {
     .map__content-desc-text {
         font-size: 14px;
     }
@@ -1102,6 +1103,10 @@ a {
     .uil-location-point {
         font-size: 18px;
     } 
+
+    .map__content-desc-text {
+        width: 80%;
+    }
 }
 
 /* футер */
