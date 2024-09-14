@@ -454,7 +454,7 @@ a {
 
 @media (max-width: 480px) {
     .welcome {
-        height: 50vh;
+        height: 60vh;
     }
     
     .welcome__img {
