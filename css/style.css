@@ -1080,7 +1080,7 @@ a {
     }
 
     .subtitle {
-        width: 90%;
+        width: 80%;
     }
 }
 
@@ -1172,6 +1172,14 @@ a {
     .footer__contact {
         padding-right: 20px;
     }
+
+    .uil-location-point {
+        display: none;
+    }
+
+    .footer__contact {
+        padding-top: 30px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 680px) {
@@ -1205,5 +1213,17 @@ a {
 
     .footer__contact {
         padding-right: 0px;
+    }
+
+    .uil-location-point {
+        display: none;
+    }
+
+    .footer__location-adress {
+        text-align: center;
+    }
+
+    .footer__contact {
+        padding-top: 0px;
     }
 }
