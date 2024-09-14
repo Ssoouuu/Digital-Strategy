@@ -1221,6 +1221,7 @@ a {
 
     .footer__location-adress {
         text-align: center;
+        padding-bottom: 20px;
     }
 
     .footer__contact {
