@@ -592,8 +592,8 @@ a {
     }
 
     .cursor {
-        right: 22.8%;
-        width: 3%;
+        right: 21%;
+        width: 5%;
         height: 5%;
     }
 
@@ -705,7 +705,7 @@ a {
     max-width: 720px;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1120px) {
    .about__content {
     display: flex;
     flex-direction: column;
@@ -736,7 +736,7 @@ a {
     }
 
     .about__content-img {
-        width: 90%;
+        width: 95%;
         margin-top: 40px;
     }
 }
@@ -775,8 +775,12 @@ a {
     margin-left: 50px;
 }
 
+.steps .subtitle {
+    margin-bottom: 0;
+}
+
 .steps__content-cards {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     display: flex;
 }
 
@@ -802,7 +806,7 @@ a {
 
 .steps__content {
     counter-reset: number 0;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .steps__card::before {
@@ -829,7 +833,7 @@ a {
 .steps__card:nth-child(3)::after {
     content: url(../img/стрелочка\ фиол\ 2.png);
     position: absolute;
-    top: -25%;
+    top: -15%;
     left: calc(80% + 1.5em);
     margin-top: 20px;
 }
@@ -837,7 +841,7 @@ a {
 .steps__card:nth-child(2)::after {
     content: url(../img/стрелочка\ оранж\ 1.png);
     position: absolute;
-    top: -25%;
+    top: -15%;
     left: calc(80% + 1.5em);
     margin-top: 20px;
 }
@@ -852,7 +856,8 @@ a {
     }
 }
 
-@media (max-width:1024px) {
+
+@media (max-width:1120px) {
     .subtitle {
         width: 50%;
     }
@@ -870,7 +875,7 @@ a {
     }
 
     .steps__content-cards {
-        margin-right: 70%;
+        margin-right: 62%;
     }
 
     .steps__card:nth-child(1)::after,
@@ -896,6 +901,12 @@ a {
 
     .steps__card:nth-last-child(1)::after {
         content: none;
+    }
+}
+
+@media (max-width:1024px) {
+    .steps__content-cards {
+        margin-right: 70%;
     }
 }
 
@@ -1246,7 +1257,7 @@ a {
 
 .map__content-desc {
     display: flex;
-    background: url(../img/ds-капибара.png);
+    background: url(../img/ds\ капибара.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 30%;
@@ -1254,13 +1265,13 @@ a {
 }
 
 .map__content-desc:hover {
-    background: url(../img/ds-капибара-сердце.png);
+    background: url(../img/ds\ капибара\ сердце.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 30%;
 }
 
-@media (max-width: 968px) {
+@media (max-width: 1024px) {
     .map {
         padding-bottom: 10%;
     }
