@@ -376,7 +376,7 @@ a {
 
 .cursor {
     position: absolute;
-    right: 24.6%;
+    right: 24.9%;
     top: 50.5%;
     cursor: default;
     animation: cursorAnimation 3s ease;
@@ -481,10 +481,14 @@ a {
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1375px) {
     .welcome__img {
         width: 62%;
         left: 38%;
+    }
+
+    .cursor {
+        right: 24.5%;
     }
 }
 
@@ -515,18 +519,6 @@ a {
         height: 6%;
         right: 24.5%;
     }
-
-    /* .light {
-        display: none;
-    }
-
-    .welcome__img {
-        background-image: url(../img/welcome\ background\ 2-4.png);
-        left: 20%;
-        width: 80%;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-    } */
 }
 
 
@@ -551,57 +543,40 @@ a {
     .cursor {
         width: 3%;
         height: 5%;
-    }
-}
-
-@media (max-width: 620px) {
-    /* .welcome__img {
-        width: 110%;
-    } */
-
-    .welcome .btn-white {
-        width: 42%;
-    }
-
-    /* .welcome__img {
-        right: -10%;
-    } */
-}
-
-/* @media (max-width: 500px) {
-    .cursor {
-        top: 57%;
-        right: 20%;
+        right: 23%;
     }
 
     .light {
-        right: 12%;
-        top: 42%;
+        right: 17%;
     }
+    
 
-    .welcome__img {
-        width: 90%;
-        top: 7%;
-    }
-} */
-
-@media (max-width: 550px) {
     .welcome__img {
         width: 70%;
         left: 35%;
     }
+}
 
-    .cursor {
-        right: 21%;
-        width: 5%;
-        height: 5%;
+@media (max-width: 620px) {
+    .welcome .btn-white {
+        width: 42%;
     }
 
     .light {
-        right: 16%;
-        top: 32%;
-        width: 20%;
-        height: 37%;
+        display: none;
+    }
+
+    .cursor {
+        display: none;
+    }
+
+    .welcome__img {
+        background-image: url(../img/welcome\ background\ 2-4.svg);
+        left: 11%;
+        width: 110%;
+        top: 5%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
     }
 }
 
@@ -609,12 +584,6 @@ a {
     .welcome {
         height: 60vh;
     }
-    
-    /* .welcome__img {
-        right: -10%;
-        width: 130%;
-        top: 10%;
-    }  */
 
     .title {
         font-size: 36px;
@@ -629,32 +598,13 @@ a {
         font-size: 12px;
         width: 50%;
     }
-
-    .light {
-        display: none;
-    }
-
-    .cursor {
-        display: none;
-    }
-
-    .welcome__img {
-        background-image: url(../img/welcome\ background\ 2-4.png);
-        left: 7%;
-        width: 110%;
-        top: 5%;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-    }
 }
 
-/* @media (max-width: 430px) {
+@media (max-width: 430px) {
     .welcome__img {
-        right: -20%;
-        width: 130%;
         top: 10%;
     } 
-} */
+}
 
 @media (max-width: 400px) {
     .welcome .title {
@@ -664,20 +614,13 @@ a {
     .welcome__content-text {
         font-size: 14px;
     }
-
-    /* .welcome__img {
-        width: 110%;
-        top: 10%;
-        right: -15%;
-    }   */
 }
 
-/* @media (max-width: 320px) {
+@media (max-width: 375px) {
     .welcome__img {
-        left: 15%;
-        top: 10%;
+        top: 15%;
     }
-} */
+}
 
 /* Секция about */
 .about__content {
