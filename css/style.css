@@ -530,6 +530,7 @@ a {
     .welcome .btn-white {
         font-size: 16px;
         width: 35%;
+        z-index: 100000;
     }
 
     .title {
@@ -574,7 +575,7 @@ a {
         background-image: url(../img/welcome\ background\ 2-4.svg);
         left: 11%;
         width: 110%;
-        top: 5%;
+        top: 8.5%;
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -774,7 +775,7 @@ a {
 
 .steps__card:nth-child(1)::after,
 .steps__card:nth-child(3)::after {
-    content: url(../img/стрелочка\ фиол\ 2.png);
+    content: url(../img/стрелочка\ фиол.svg);
     position: absolute;
     top: -15%;
     left: calc(80% + 1.5em);
@@ -782,7 +783,7 @@ a {
 }
 
 .steps__card:nth-child(2)::after {
-    content: url(../img/стрелочка\ оранж\ 1.png);
+    content: url(../img/стрелочка\ оранж.svg);
     position: absolute;
     top: -15%;
     left: calc(80% + 1.5em);
@@ -823,14 +824,14 @@ a {
 
     .steps__card:nth-child(1)::after,
     .steps__card:nth-child(3)::after {
-    content: url(../img/стрелочка\ фиол\ 2.png);
+    content: url(../img/стрелочка\ фиол.svg);
     position: absolute;
     top: -10%;
     left: calc(80% + 1.5em);
     }
 
     .steps__card:nth-child(4)::after {
-        content: url(../img/стрелочка\ оранж\ 1.png);
+        content: url(../img/стрелочка\ оранж.svg);
         position: absolute;
         top: -10%;
         left: calc(80% + 1.5em);
@@ -937,6 +938,7 @@ a {
 /* Cекция application form */
 .application {
     background: var(--light-purple);
+    padding: 4% 10%;
 }
 
 .application__content {
