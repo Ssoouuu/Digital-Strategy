@@ -662,6 +662,7 @@ a {
    .about__content-img  {
     margin-left: 0;
     margin-top: 50px;
+    width: 80%;
    }
 }
 
@@ -680,7 +681,6 @@ a {
     }
 
     .about__content-img {
-        width: 95%;
         margin-top: 40px;
     }
 }
