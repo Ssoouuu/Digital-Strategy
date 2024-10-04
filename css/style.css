@@ -101,7 +101,8 @@ ul {
 
 .btn:active {
     color: var(--white);
-    background-color: #8667dd;
+    background-color: var(--light-gray);
+    border-color: var(--light-gray);
 }
 
 .btn-white {
@@ -1030,6 +1031,14 @@ a {
 
 .application__form-sent .btn:hover {
     border-color: var(--secondary);
+}
+
+.application__form-sent .btn:active {
+    border-color: var(--light-gray);
+} 
+
+.application__form-text-link:active {
+    color: var(--light-gray);
 }
 
 /* стилизация квадратиков */ 
