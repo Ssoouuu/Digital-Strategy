@@ -213,6 +213,7 @@ a {
     height: 18px;
     right: 50px;
     overflow: hidden;
+    z-index: 1000;
 }
 
 .burger span {
@@ -293,7 +294,7 @@ a {
         height: 100%;
         width: 100%;
         top: 0; bottom: 0; left: 0; right: 0;
-        z-index: 10000000;
+        z-index: 1000;
         overflow-y: auto;
         padding: 150px 40px;
         animation: burgerAnimation 0.4s;
@@ -434,7 +435,7 @@ a {
 
 .welcome__content {
     padding-top: 100px;
-    z-index: 1000;
+    z-index: 100;
 }
 
 .welcome__content h1 {
@@ -532,7 +533,7 @@ a {
     .welcome .btn-white {
         font-size: 16px;
         width: 35%;
-        z-index: 100000;
+        z-index: 100;
     }
 
     .title {
